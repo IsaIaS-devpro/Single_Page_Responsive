@@ -1,0 +1,396 @@
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+    html {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        font-family: "Comic Neue";
+    }
+
+    body {
+        background-color: #0C1C28;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    nav {
+        position: absolute;
+        top: 27px;
+        right: 70px;
+        z-index: 1000;
+    }
+
+    .nav-icone {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .nav-icone span {
+        width: 100%;
+        height: 3px;
+        background-color: #FFFFFF;
+        border-radius: 3px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .img_fundo1 {
+        background-image: url(imagens/banner1..png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 794px;
+        opacity: 0.4;
+        margin: 70px 0;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: "Comic Neue", cursive;
+        font-size: 54px;
+        max-width: 90%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+
+    #sub-titulo {
+        color: #FFFFFF;
+        font-family: "Comic Neue", cursive;
+        font-size: 34px;
+        position: absolute;
+        top: calc(50%);
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: 10;
+    }
+
+    .button-1 {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 45px 10px 30px;
+        border-radius: 30px;
+        background-color: #ffffff;
+        position: absolute;
+        top: calc(50% + 200px);
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Comic Neue", cursive;
+        font-weight: bold;
+        font-size: 28px;
+        border: none;
+    }
+
+    .button-1::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid;
+    }
+
+    .button-1:hover {
+        cursor: pointer;
+        background-color: #808080;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        nav {
+            top: 5px;
+            right: 5px;
+        }
+
+        .img_fundo1 {
+            height: 30vh;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        #sub-titulo {
+            font-size: 16px;
+            top: calc(50% + 20px);
+        }
+
+        .button-1 {
+            padding: 10px 20px;
+            font-size: 14px;
+            top: calc(50% + 70px);
+        }
+
+        .button-1::after {
+            right: 10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid;
+        }
+    }
+
+    #parte1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        max-width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .caixa {
+        text-align: center;
+        max-width: 300px;
+        min-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .caixa img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .Titulo-parte1 {
+        color: #ffffff;
+        font-family: "Comic Neue";
+        font-size: 29px;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+
+    .Descrição-parte1 {
+        color: #ffffff;
+        font-family: "Comic Neue";
+        font-size: 14px;
+        margin-top: -15px;
+    }
+
+    .button-parte1 {
+        display: inline-block;
+        background-color: #0C1C28;
+        border: 2px white solid;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 15px;
+
+    }
+
+    .button-parte1:hover {
+        background-color: grey;
+    }
+
+    @media screen and (max-width: 768px) {
+        .caixa {
+            max-width: calc(50% - 40px);
+        }
+    }
+
+    .titulo-parte2 {
+        text-align: center;
+        margin-top: 5vh;
+        color: #ffffff;
+        font-size: 3vw;
+    }
+
+    .a1 {
+        display: inline-block;
+        text-decoration: none;
+        color: #38A1C6;
+    }
+
+    .text-parte2 {
+        text-align: center;
+        color: #ffffff;
+        margin: 5vh 5vw;
+        font-family: "Comic Neue";
+        font-weight: 400;
+        font-size: 2vw;
+    }
+
+    #img2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .caixa2 {
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+    }
+
+    .caixa2 img {
+        width: inline;
+        min-width: 250px;
+        max-width: 250px;
+        height: 200px;
+    }
+
+    figcaption {
+        color: #ffffff;
+        font-family: "Comic Neue";
+        font-size: 14px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .pessoas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2vh;
+    }
+
+    .caixa3 {
+        width: calc(90%- 4vw);
+        max-width: 300px;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 4vw;
+        text-align: center;
+        margin: 2vh;
+    }
+
+    .caixa3 img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 2vh;
+    }
+
+    .titulo-pessoas {
+        margin-bottom: 1vh;
+        font-size: 2vw;
+    }
+
+
+    .background-image {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background-image::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('imagens/fundo-form.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.4;
+        z-index: -1;
+    }
+
+
+    .container {
+        background-color: #0C1C28;
+        border-radius: 10px;
+        padding: 5vh;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #ffffff;
+        max-width: 90vw;
+        width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container h2 {
+        text-align: center;
+        margin-bottom: 3vh;
+        font-size: 3vh;
+    }
+
+    .input-group {
+        margin-bottom: 3vh;
+    }
+
+    input,
+    textarea {
+        width: calc(100% - 20px);
+        padding: 2vh;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        background-color: #0C1C28;
+        color: #ffffff;
+        font-size: 2vh;
+    }
+
+    input::placeholder {
+        color: #999;
+    }
+
+    .input-group label {
+        display: block;
+        margin-bottom: 1vh;
+        color: white;
+        font-size: 2vh;
+    }
+
+    .input-group .half-width {
+        width: calc(50% - 10px);
+        display: inline-block;
+    }
+
+    .input-group .full-width {
+        width: 100%;
+    }
+
+    .send-form {
+        margin: 0 auto;
+        padding: 2vh 5vw;
+        border-radius: 130px;
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #0C1C28;
+        font-size: 2vh;
+        font-weight: 1000;
+        border: none;
+    }
+
+    .send-form:hover {
+        background-color: grey;
+    }
+
+    .footer {
+        background-color: #0C1C28;
+        color: #ffffff;
+        text-align: center;
+        padding: 2vh 0;
+    }
