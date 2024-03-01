@@ -2,10 +2,6 @@
 
 Olá, segue abaixo 2 vídeos: 1 em uso do protótipo do site em uma tela de computador, o outro em Celular.
 
-# ATTRI
-
-Olá, segue abaixo 2 vídeos: 1 em uso do protótipo do site em uma tela de computador, o outro em Celular.
-
 HTML:
 Estrutura básica do documento HTML dando ênfase na construção responsiva visando a qualidade para o SEO.
 Contém metadados, como o conjunto de caracteres, palavras-chave, descrição e autor.
