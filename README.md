@@ -6,8 +6,8 @@ HTML:
 Estrutura básica do documento HTML dando ênfase na construção responsiva visando a qualidade para o SEO.
 Contém metadados, como o conjunto de caracteres, palavras-chave, descrição e autor.
 Contém diversas seções como: navegação, cabeçalho, seções principais, formulário e rodapé.
-Contém elementos semânticos como <header>, <nav>, <main>, <section>, <footer>, <form>, etc.
-Usa tags de imagem (<img>), links (<a>), botões (<button>), formulários (<form>) e elementos de texto.
+Contém elementos semânticos como header, nav, main, section, footer,form, etc.
+Usa tags de imagem img>, links a, botões button, formulários form e elementos de texto.
 
 CSS:
 Estilos para diferentes elementos HTML.
