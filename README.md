@@ -31,3 +31,14 @@ Se todos os campos obrigatórios estiverem preenchidos, ele envia um e-mail com 
 Em caso de problema, uma mensagem é exibida.
 
 Finalmente, agradeço ao Estevão e a Isabela pela excelente oportunidade dada a mim para demonstrar certos conhecimentos e, em um sentido mais pessoal, para entender onde estou, onde posso continuar melhorando. Obrigado, desde já, pela oportunidade!
+
+
+
+https://github.com/IsaIaS-devpro/ATTRI/assets/139881341/739ffa50-87c9-4858-b8ee-56d6cf0e491d
+
+
+https://github.com/IsaIaS-devpro/ATTRI/assets/139881341/55b50ce4-2fc9-4f86-a54b-1cfe2748a197
+
+
+
+
