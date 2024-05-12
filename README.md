@@ -30,8 +30,6 @@ Faz a verificação dos campos obrigatórios;
 Se todos os campos obrigatórios estiverem preenchidos, ele envia um e-mail com os dados do formulário para um endereço especificado que é totalmente ficticio, apenas para mostrar o uso.
 Em caso de problema, uma mensagem é exibida.
 
-Finalmente, agradeço ao Estevão e a Isabela pela excelente oportunidade dada a mim para demonstrar certos conhecimentos e, em um sentido mais pessoal, para entender onde estou, onde posso continuar melhorando. Obrigado, desde já, pela oportunidade!
-
 
 
 https://github.com/IsaIaS-devpro/ATTRI/assets/139881341/739ffa50-87c9-4858-b8ee-56d6cf0e491d
